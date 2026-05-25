@@ -4,3 +4,4 @@ pydantic[email]>=2.6.0
 sqlalchemy>=2.0.0
 bcrypt>=4.1.0
 pyjwt>=2.8.0
+python-multipart
