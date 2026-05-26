@@ -1,0 +1,4 @@
+.git
+todo_data/
+*.db
+bin/

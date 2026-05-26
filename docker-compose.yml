@@ -1,0 +1,11 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=data/todo.db
+      - SECRET_KEY=super_secret_change_me
+    volumes:
+      - ./todo_data:/root/data
+    restart: always
